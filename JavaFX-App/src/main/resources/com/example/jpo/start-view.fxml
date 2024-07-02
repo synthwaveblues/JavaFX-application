@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="116.0" prefWidth="131.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.jpo.StartController">
+    <Button onAction="#openRegisterWindow" text="Register" />
+    <Button onAction="#openLoginWindow" text="Login" />
+</VBox>

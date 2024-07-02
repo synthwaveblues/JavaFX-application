@@ -1,0 +1,16 @@
+Date: 2024-06-05
+Symbol: EUR
+Rate: 4.3081 PLN
+
+Date: 2024-05-29
+Symbol: EUR
+Rate: 4.2529 PLN
+
+Date: 2024-05-08
+Symbol: EUR
+Rate: 4.3195 PLN
+
+Date: 2024-05-16
+Symbol: EUR
+Rate: 4.2617 PLN
+

@@ -1,0 +1,16 @@
+Date: 2024-06-05
+Symbol: GBP
+Rate: 5.0606 PLN
+
+Date: 2024-06-04
+Symbol: GBP
+Rate: 5.0403 PLN
+
+Date: 2024-06-03
+Symbol: GBP
+Rate: 5.0181 PLN
+
+Date: 2024-05-29
+Symbol: GBP
+Rate: 5.0055 PLN
+

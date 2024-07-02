@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="546.0" prefWidth="272.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jpo.MainController">
+    <children>
+        <VBox fx:id="loginBox" alignment="CENTER" prefHeight="146.0" prefWidth="272.0" spacing="10">
+            <Label text="Login">
+            <VBox.margin>
+               <Insets top="20.0" />
+            </VBox.margin></Label>
+            <TextField fx:id="loginField" prefHeight="25.0" prefWidth="203.0" promptText="Username" VBox.vgrow="SOMETIMES">
+            <VBox.margin>
+               <Insets left="50.0" right="50.0" />
+            </VBox.margin></TextField>
+            <PasswordField fx:id="passwordField" promptText="Password">
+            <VBox.margin>
+               <Insets left="50.0" right="50.0" />
+            </VBox.margin></PasswordField>
+            <Button onAction="#login" text="Login">
+            <VBox.margin>
+               <Insets bottom="10.0" />
+            </VBox.margin></Button>
+            <Label fx:id="messageLabel" textFill="ORANGE" />
+        </VBox>
+
+        <VBox fx:id="mainBox" alignment="CENTER" prefHeight="367.0" prefWidth="272.0" spacing="10" visible="false">
+            <TextField fx:id="symbolField" promptText="Currency Symbol (e.g., USD)">
+            <VBox.margin>
+               <Insets left="50.0" right="50.0" />
+            </VBox.margin></TextField>
+            <DatePicker fx:id="datePicker" />
+            <Button onAction="#fetchCurrencyRate" text="Fetch Rate" />
+            <Button onAction="#showData" text="Show Data" />
+            <Label fx:id="resultLabelCurrencies" textFill="ORANGE" />
+            <Label text="Weather in Poznan:" />
+            <Label fx:id="weatherDateTimeLabel" />
+            <Label fx:id="weatherTemperatureLabel" />
+            <Label fx:id="weatherConditionLabel" />
+            <Label fx:id="resultLabelWeather" textFill="ORANGE" />
+        </VBox>
+    </children>
+</VBox>
