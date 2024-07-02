@@ -15,3 +15,5 @@ The application uses the HttpClient library for making HTTP requests, Gson for p
     • MainController.java: Controller for the main application logic
     • RegisterController.java: Controller for the user registration functionality
     • StartController.java: Controller for handling the initial UI actions
+
+**Opened and created in [IntelliJ Idea 2024.1] (https://www.jetbrains.com/idea/download/?section=windows)**
